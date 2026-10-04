@@ -1,12 +1,12 @@
 cask "hilbert" do
-  version "0.2.7"
+  version "0.2.8"
 
   on_arm do
-    sha256 "0162864ad9bdd68c8195d108f54c28614e3d3f83ed2523c8fb202c8ae2153bce"
+    sha256 "61579c8159b73768d8f41c9932017f18db8ab7cc17f645e6d6fc0c9f98fb47aa"
     url "https://github.com/aburousan/hilbert-editor/releases/download/tauri-v#{version}/Hilbert_#{version}_aarch64.dmg"
   end
   on_intel do
-    sha256 "8f1f81a980f1c9bd9ce6d00f85eeeaf64322e7b891a727bf98918f2feabe80e5"
+    sha256 "4fa29046b8c5f61bf8bcbfea1505db1efff6da04f7a88c29106a987076932616"
     url "https://github.com/aburousan/hilbert-editor/releases/download/tauri-v#{version}/Hilbert_#{version}_x64.dmg"
   end
 
